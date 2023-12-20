@@ -1,0 +1,24 @@
+.container{
+    padding-top: 20px;
+}
+
+.client-list {
+    list-style: none;
+    padding: 0;
+    padding-top: 50px;
+  }
+  
+  .light-gray {
+    background-color: rgb(246, 246, 246);
+  }
+  
+  .white {
+    background-color: white;
+  }
+  .client{
+    border: 1px solid gray;
+    box-shadow: 0px 5px 5px rgb(102, 102, 102);
+    border-radius: 5px;
+    height: 280px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }

@@ -1,8 +1,13 @@
 import React from 'react'
+import GetAllClient from './GetAllClient'
+import GetAllServer from './GetAll Server'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <GetAllClient/>
+      <GetAllServer/>
+    </div>
   )
 }
 
